@@ -8,8 +8,10 @@
     font-size: 8rem;
     margin-bottom: 15px;
     text-shadow: 0px 20px 7px  #fe8205;
+    
   }
-   
+  p{animation:jitter 200ms linear infinite;color: #2f2d2d;display:inline-block}
+  @keyframes jitter{ 50%{transform:skewY(0.7deg) skewX(-0.2deg) scale(1.05);} }
 
   body {
     height: 60vh;
